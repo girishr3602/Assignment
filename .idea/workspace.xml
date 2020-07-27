@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f39ccf50-1cb0-42b3-9b04-e9a7fff86b35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/qa/util/TemperatureType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/util/TemperatureType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/qa/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/util/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NDTVUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NDTVAssignmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NdtvApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NdtvApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NDTVAssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NDTVAssignmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NdtvApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NdtvApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +47,11 @@
       <command value="{" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NDTVAssignmentTest.compareTemperature">
-    <configuration name="NDTVAssignmentTest.compareTemperature" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NDTVAssignmentTest">
+    <configuration name="NDTVAssignmentTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NDTVAssignmentTest" />
-      <option name="METHOD_NAME" value="compareTemperature" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NDTVUITest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NDTVUITest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -72,10 +59,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NDTVUITest.compareTemperature (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NDTVAssignmentTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NDTVUITest" />
+      <option name="MAIN_CLASS_NAME" value="NDTVAssignmentTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NDTVAssignmentTest.compareTemperature" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NDTVAssignmentTest" />
       <option name="METHOD_NAME" value="compareTemperature" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -110,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NDTVAssignmentTest" />
+        <item itemvalue="TestNG.NDTVAssignmentTest (1)" />
         <item itemvalue="TestNG.NDTVAssignmentTest.compareTemperature" />
         <item itemvalue="TestNG.NDTVUITest.compareTemperature (4)" />
         <item itemvalue="TestNG.NDTVUITest.compareTemperature (3)" />
-        <item itemvalue="TestNG.NDTVUITest.compareTemperature (2)" />
-        <item itemvalue="TestNG.NDTVUITest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,25 +146,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595841113811" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1595844698955">
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1595845640844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595844698955" />
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595845640844" />
     <state width="1397" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1595844698954">
+    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1595845640844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595844698954" />
+    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595845640844" />
     <state width="1397" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1595844698954">
+    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1595845640844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595844698954" />
+    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595845640844" />
     <state width="1397" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1595844698954">
+    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1595845640844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595844698954" />
+    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595845640844" />
     <state width="1397" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1595667114289">
       <screen x="0" y="0" width="1920" height="1040" />

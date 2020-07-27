@@ -10,10 +10,9 @@ public class Utils extends TestBase {
 
     public static boolean temperatureComparator(LocationDetails uiLocationDetails, LocationDetails apiLocationDetails, TemperatureType temperatureType) {
         if (temperatureType.equals(TemperatureType.DEGREES)){
-            System.out.println("uiLocationDetails = " + uiLocationDetails.getTemperatureInDegrees());
-            System.out.println("apiLocationDetails = " + apiLocationDetails.getTemperatureInDegrees());
-
             System.out.println("****** Before rounding the value******");
+            System.out.println("uiTempDetails = " + uiLocationDetails.getTemperatureInDegrees());
+            System.out.println("apiTempDetails = " + apiLocationDetails.getTemperatureInDegrees());
             uiLocationDetails.getTemperatureInDegrees().equalsIgnoreCase(apiLocationDetails.getTemperatureInDegrees());
 
             System.out.println("****** After rounding the value******");

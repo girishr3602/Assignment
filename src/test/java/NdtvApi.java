@@ -6,13 +6,13 @@ import static io.restassured.RestAssured.given;
 
 public class NdtvApi {
 
-    public static Response validateAPI(){
+    public static Response validateAPI(String cityName){
         Response response = given()
                 .baseUri("https://api.openweathermap.org")
-                .queryParam("q","Bengaluru")
+                .queryParam("q",cityName)
                 .queryParam("units","metric")
                 .queryParam("appid","7fe67bf08c80ded756e598d6f8fedaea")
-                //.log().all()
+                .log().all()
         .when()
                 .get("/data/2.5/weather")
         .andReturn();

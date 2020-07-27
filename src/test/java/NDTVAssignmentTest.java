@@ -14,6 +14,8 @@ public class NDTVAssignmentTest extends TestBase {
     HomePage homePage;
     WeatherPage weatherPage;
 
+    public static final String cityName = "bengaluru";
+
     public NDTVAssignmentTest() {
         super();
     }
@@ -26,7 +28,7 @@ public class NDTVAssignmentTest extends TestBase {
 
     //@Test
     public LocationDetails getWeatherDetailsByUI() {
-        String cityName = "bengaluru";
+        //String cityName = "bengaluru";
         weatherPage = homePage.selectNavigation();
         weatherPage.searchAndSelectCity(cityName);
         Assert.assertTrue(weatherPage.validateCityVisiblityInMap(cityName));
@@ -36,7 +38,7 @@ public class NDTVAssignmentTest extends TestBase {
 
     //@Test
     public LocationDetails getWeatherDetailsByAPI() {
-        Response response = NdtvApi.validateAPI();
+        Response response = NdtvApi.validateAPI(cityName);
         LocationDetails locationDetails = NdtvApi.saveWeatherDetailsByAPI(response);
         return  locationDetails;
     }
