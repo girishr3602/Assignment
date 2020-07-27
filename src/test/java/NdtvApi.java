@@ -4,7 +4,7 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
-public class NdtvApiTest {
+public class NdtvApi {
 
     public static Response validateAPI(){
         Response response = given()
@@ -12,7 +12,7 @@ public class NdtvApiTest {
                 .queryParam("q","Bengaluru")
                 .queryParam("units","metric")
                 .queryParam("appid","7fe67bf08c80ded756e598d6f8fedaea")
-                .log().all()
+                //.log().all()
         .when()
                 .get("/data/2.5/weather")
         .andReturn();

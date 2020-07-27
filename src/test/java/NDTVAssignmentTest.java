@@ -4,18 +4,17 @@ import com.assignment.qa.pages.LocationDetails;
 import com.assignment.qa.pages.WeatherPage;
 import com.assignment.qa.util.TemperatureType;
 import com.assignment.qa.util.Utils;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class NDTVUITest extends TestBase {
+public class NDTVAssignmentTest extends TestBase {
     HomePage homePage;
     WeatherPage weatherPage;
 
-    public NDTVUITest() {
+    public NDTVAssignmentTest() {
         super();
     }
 
@@ -37,8 +36,8 @@ public class NDTVUITest extends TestBase {
 
     //@Test
     public LocationDetails getWeatherDetailsByAPI() {
-        Response response = NdtvApiTest.validateAPI();
-        LocationDetails locationDetails = NdtvApiTest.saveWeatherDetailsByAPI(response);
+        Response response = NdtvApi.validateAPI();
+        LocationDetails locationDetails = NdtvApi.saveWeatherDetailsByAPI(response);
         return  locationDetails;
     }
 
