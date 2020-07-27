@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39ccf50-1cb0-42b3-9b04-e9a7fff86b35" name="Default Changelist" comment="" />
+    <list default="true" id="f39ccf50-1cb0-42b3-9b04-e9a7fff86b35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/apiFramework/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/apiFramework/ApiActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/apiFramework/ApiResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/qa/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/qa/pages/WeatherPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/pages/WeatherPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment/qa/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment/qa/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NDTVUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NDTVUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NdtvApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NdtvApiTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fAb5xLhEw5HyUplcJbgSnOHoVg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +39,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/assignment/qa/drivers" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AirtoryStudioWebsite" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -38,8 +56,8 @@
       <command value="{" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NDTVUITest (1)">
-    <configuration name="NDTVUITest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NDTVUITest.getWeatherDetails">
+    <configuration name="NDTVUITest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NDTVUITest" />
@@ -50,44 +68,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NDTVUITest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NDTVUITest.getWeatherDetails (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NDTVUITest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="getWeatherDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NDTVUITest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NDTVUITest.getWeatherDetails (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NDTVUITest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="getWeatherDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NDTVUITest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NDTVUITest.getWeatherDetails (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NDTVUITest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="getWeatherDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NDTVUITest (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NDTVUITest.getWeatherDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NDTVUITest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="getWeatherDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -96,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NDTVUITest (1)" />
-        <item itemvalue="TestNG.NDTVUITest (5)" />
-        <item itemvalue="TestNG.NDTVUITest (4)" />
-        <item itemvalue="TestNG.NDTVUITest (3)" />
-        <item itemvalue="TestNG.NDTVUITest (2)" />
+        <item itemvalue="TestNG.NDTVUITest.getWeatherDetails" />
+        <item itemvalue="TestNG.NDTVUITest.getWeatherDetails (3)" />
+        <item itemvalue="TestNG.NDTVUITest.getWeatherDetails (2)" />
+        <item itemvalue="TestNG.NDTVUITest" />
+        <item itemvalue="TestNG.NDTVUITest.getWeatherDetails (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -130,25 +152,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595667286765" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1595744435582">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595838234482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595744435582" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595838234482" />
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1595840904889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595840904889" />
     <state width="1397" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1595744435582">
+    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1595840904889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595744435582" />
+    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595840904889" />
     <state width="1397" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1595744435582">
+    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1595840904889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595744435582" />
+    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595840904889" />
     <state width="1397" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1595744435582">
+    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1595840904889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595744435582" />
+    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-120.1440.860@0.0.1920.1040" timestamp="1595840904889" />
     <state width="1397" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-120.1440.860@1920.-120.1440.860" timestamp="1595707274222" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1595667114289">
       <screen x="0" y="0" width="1920" height="1040" />

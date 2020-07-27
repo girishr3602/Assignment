@@ -21,9 +21,9 @@ public class NDTVUITest extends TestBase {
     }
 
     @Test
-    public void getWeatherDetails(){
-        String cityName = "allahabad";
-        weatherPage = homePage.selectNavigation("WEATHER");
+    public void getWeatherDetails() {
+        String cityName = "bengaluru";
+        weatherPage = homePage.selectNavigation();
         weatherPage.searchAndSelectCity(cityName);
         Assert.assertTrue(weatherPage.validateCityVisiblityInMap(cityName));
         weatherPage.saveCityDetails(cityName);

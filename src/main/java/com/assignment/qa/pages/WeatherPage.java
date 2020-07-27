@@ -30,6 +30,9 @@ public class WeatherPage extends TestBase {
     @FindBy(xpath = "//*[@class='message']/label")
     List<WebElement> searchedLocation;
 
+    @FindBy(xpath = "//*[@class='message']/label/input")
+    List<WebElement> checkbox;
+
     @FindBy(xpath = "//*[@class='cityText']")
     List<WebElement> visibleCityList;
 
@@ -59,7 +62,12 @@ public class WeatherPage extends TestBase {
 
         for (int i = 0; i < searchedLocation.size(); i++) {
             if(searchedLocation.get(i).getText().toLowerCase().contains(citySearchName)){
-                searchedLocation.get(i).click();
+                if(checkbox.get(i).isSelected()){
+                    break;
+                } else {
+                    searchedLocation.get(i).click();
+                    //System.out.println("Check box selected: " + checkbox.get(i).isSelected());
+                }
                 break;
             }
         }

@@ -1,14 +1,17 @@
 package com.assignment.qa.pages;
 
 import com.assignment.qa.base.TestBase;
+import com.assignment.qa.util.Utils;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
 public class HomePage extends TestBase {
-
+    private WebDriverWait wait;
     public HomePage(){
         PageFactory.initElements(driver, this);
     }
@@ -26,7 +29,10 @@ public class HomePage extends TestBase {
     @FindBy(xpath = "//*[@class='ndtvlogo']")
     WebElement ndtvLogo;
 
-    public WeatherPage selectNavigation(String navItemName){
+    @FindBy(id = "__cricketsubscribe")
+    WebElement notification;
+
+    public WeatherPage selectNavigation() {
         extraIcon.click();
         weather.click();
         return new WeatherPage();

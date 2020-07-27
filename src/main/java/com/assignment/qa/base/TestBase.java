@@ -3,6 +3,7 @@ package com.assignment.qa.base;
 import com.assignment.qa.util.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -50,7 +51,10 @@ public class TestBase {
             String browser = properties.getProperty("browser");
             if ("chrome".equals(browser)) {
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/com/assignment/qa/drivers/chromedriver");
-                driver = new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                //options.addArguments("--disable-notifications");
+                options.addArguments("--disable-popup-blocking");
+                driver = new ChromeDriver(options);
             } else if ("firefox".equals(browser)) {
                 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/main/java/com/assignment/qa/drivers/geckodriver");
                 driver = new FirefoxDriver();
@@ -61,8 +65,8 @@ public class TestBase {
         }
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().pageLoadTimeout(Utils.IMPLICIT_WAIT, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(Utils.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(Utils.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Utils.IMPLICIT_WAIT, TimeUnit.SECONDS);
         driver.get(properties.getProperty("loginurl"));
     }
 }
