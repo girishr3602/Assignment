@@ -9,12 +9,16 @@ public class LocationDetails {
     private String temperatureInFahrenheit;
 
     public LocationDetails(String name, String condition, String windDetails, String humidity, String temperatureInDegrees, String temperatureInFahrenheit) {
+        this(name, condition, windDetails, humidity, temperatureInDegrees);
+        this.temperatureInFahrenheit = temperatureInFahrenheit;
+    }
+
+    public LocationDetails(String name, String condition, String windDetails, String humidity, String temperatureInDegrees) {
         this.name = name;
         this.condition = condition;
         this.windDetails = windDetails;
         this.humidity = humidity;
         this.temperatureInDegrees = temperatureInDegrees;
-        this.temperatureInFahrenheit = temperatureInFahrenheit;
     }
 
     public String getName() {

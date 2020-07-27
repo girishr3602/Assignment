@@ -2,9 +2,7 @@ package com.assignment.qa.pages;
 
 import com.assignment.qa.base.TestBase;
 import com.assignment.qa.util.Utils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -84,7 +82,7 @@ public class WeatherPage extends TestBase {
         return false;
     }
 
-    public void saveCityDetails(String cityName){
+    public LocationDetails saveCityDetails(String cityName){
         for (int i = 0; i < visibleCityList.size(); i++) {
             if(visibleCityList.get(i).getText().equalsIgnoreCase(cityName)){
                 visibleCityList.get(i).click();
@@ -100,7 +98,7 @@ public class WeatherPage extends TestBase {
 
         LocationDetails locationDetails = new LocationDetails(name, condition, windDetails, humidity, tempInDegrees, tempInFrahrenheit);
 
-        System.out.println("*********Before Name Set*********");
+       /* System.out.println("*********Before Name Set*********");
         System.out.println("name = " + name);
         System.out.println("condition = " + condition);
         System.out.println("windDetails = " + windDetails);
@@ -115,6 +113,7 @@ public class WeatherPage extends TestBase {
         System.out.println("windDetails = " + locationDetails.getWindDetails());
         System.out.println("humidity = " + locationDetails.getHumidity());
         System.out.println("tempInDegrees = " + locationDetails.getTemperatureInDegrees());
-        System.out.println("tempInFrahrenheit = " + locationDetails.getTemperatureInFahrenheit());
+        System.out.println("tempInFrahrenheit = " + locationDetails.getTemperatureInFahrenheit());*/
+       return locationDetails;
     }
 }
